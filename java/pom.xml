@@ -32,6 +32,31 @@
             <artifactId>spark-core</artifactId>
             <version>2.9.4</version>
         </dependency>
+        <dependency>
+	        <groupId>org.slf4j</groupId>
+	        <artifactId>slf4j-api</artifactId>
+	        <version>1.7.36</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>ch.qos.logback</groupId>
+	        <artifactId>logback-classic</artifactId>
+	        <version>1.2.11</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.zaxxer</groupId>
+	        <artifactId>HikariCP</artifactId>
+	        <version>5.0.1</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.apache.logging.log4j</groupId>
+	        <artifactId>log4j-api</artifactId>
+	        <version>2.22.1</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.apache.logging.log4j</groupId>
+	        <artifactId>log4j-core</artifactId>
+	        <version>2.22.1</version>
+	    </dependency>
     </dependencies>
     <build>
         <plugins>
