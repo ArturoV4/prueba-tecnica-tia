@@ -158,7 +158,6 @@ public class WehrmachtApp {
 				row.createCell(2).setCellValue(rs.getInt(3));
 			}
 
-			// Crear la carpeta "reportes" si no existe
 			File directory = new File(REPORT_DIRECTORY);
 			if (!directory.exists()) {
 				if (directory.mkdirs()) {
